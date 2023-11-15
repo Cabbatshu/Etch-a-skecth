@@ -1,0 +1,16 @@
+#grid {
+  margin: 24px 24px 24px 0px;
+}
+.square {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+}
+.square.painted {
+  background-color: aqua;
+}
+
+.line {
+  display: inline-flex;
+  flex-direction: column;
+}
